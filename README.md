@@ -3,11 +3,11 @@
 ## I. Learning Goals
 
 - Motion Planning basic concepts
-  * Configuration space vs. Workspace: you should understand the difference between configuration space and workspace, and the advantages and disadvantages of planning in each of them.
-  * Free space vs. Obstacle space: you should understand the difference between free space and obstacle space.
-  * Occupancy grids and Costmaps: you should understand what occupancy grids and costmaps are, how to use them, and how to create them.
+  - Configuration space vs. Workspace: you should understand the difference between configuration space and workspace, and the advantages and disadvantages of planning in each of them.
+  - Free space vs. Obstacle space: you should understand the difference between free space and obstacle space.
+  - Occupancy grids and Costmaps: you should understand what occupancy grids and costmaps are, how to use them, and how to create them.
 - Motion Planning algorithms
-  * Sampling based algorithms: RRT and its variants.
+  - Sampling based algorithms: RRT and its variants.
 
 ## II. Overview
 
@@ -37,7 +37,6 @@ You'll need to implement an occupancy grid for collision checking. Think about w
 
 ![grid](imgs/grid.png)
 
-
 Figure 2
 
 ### Working in the simulator and on the car
@@ -54,7 +53,6 @@ Think about how you could change the way that you're sampling the free space to 
 
 Make sure you visualize the tree you've expanded, and the path you've chosen as the trajectory.
 
-
 ## IV. Part C: RRT* (Extra credit)
 
 ![rrt](imgs/rrt.png)
@@ -64,11 +62,6 @@ Figure 3
 You'll be rewarded extra credit (10%) for implementing RRT*, or another modified version of RRT (if you do, make a good argument on why it deserves extra credit). On top of the basic version of RRT, RRT* uses a cost function, and rewiring the tree, to find a better path to the goal. When the tree has expanded infinite number of nodes, RRT*'s solution is close to optimal. Figure 3 shows the difference in the tree expanded and path found between RRT and RRT*. The skeleton code provided has sections for functions in RRT* as well.
 
 ## V: Deliverables
+
 - **Deliverable 1**: As usual, push your code to GitHub and your code should run smoothly in simulation.
 - **Deliverable 2**: Include a video to your RRT algorithm running. A visualization in RVIZ is required. Also include a video of the car running RRT in Levine hallway.
-
-## VI: Grading Rubric
-- Compilation: **30** Points
-- Performance on straight path: **30** Points
-- Performance on turn: **30** Points
-- Video: **10** Points
