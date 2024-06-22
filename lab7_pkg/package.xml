@@ -3,9 +3,9 @@
 <package format="3">
   <name>lab7_pkg</name>
   <version>0.0.0</version>
-  <description>f1tenth lab7_pkg</description>
-  <maintainer email="zzang@seas.upenn.edu">zzangupenn</maintainer>
-  <license>TODO: License declaration</license>
+  <description>My solution for Lab 6: Motion Planning RRT for University of Pennsylvania course F1TENTH</description>
+  <maintainer email="hamza.okhadir2018@gmail.com">OKHADIR Hamza</maintainer>
+  <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_python</buildtool_depend>
